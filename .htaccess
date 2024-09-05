@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule assets/ - [L]
+AddType text/css .css
+RewriteRule ^(.*)$ index.php
